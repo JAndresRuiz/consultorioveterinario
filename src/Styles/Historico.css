@@ -1,7 +1,15 @@
-.Historico{
-    width: 50%;
+#Historico{
+    height: 50vh;
 }
 
-.Historico h2{
-    text-align: center;
+@media (max-width: 1199px){
+    #Historico{
+        height: 55vh;
+    }
+}
+
+@media (max-width: 767px){
+    #Historico{
+        height: auto;
+    }
 }
